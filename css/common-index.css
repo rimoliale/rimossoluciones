@@ -44,13 +44,13 @@ span {
 
 
 .carousel__face:nth-child(1) {
-  background-image: url("/images/vista Plataformas TRANSPARENTE.png");
+  background-image: url("/images/vista Plataformas TRANSPARENTE.jpg");
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
-  background-image: url("/images/estudiojuridico.png");
+  background-image: url("/images/estudiojuridico.jpg");
     transform: rotateY( 40deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
-  background-image: url("/images/Tatuaje.png");
+  background-image: url("/images/Tatuaje.jpg");
   transform: rotateY( 80deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
   background-image: url("/images/vista Plataformas TRANSPARENTE.png");
