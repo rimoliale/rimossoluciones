@@ -39,31 +39,31 @@ span {
 
 
 .carousel__face:nth-child(1) {
-  background-image: src="/images/vista Plataformas TRANSPARENTE.jpg";
+  background-image: url("/images/vista-plataformas-transparente.jpg");
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
-  background-image: src="/images/estudiojuridico.jpg";
+  background-image: url("/images/estudiojuridico.jpg");
     transform: rotateY( 40deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
-  background-image: src="/images/Tatuaje.jpg";
+  background-image: url("/images/tatuaje.jpg");
   transform: rotateY( 80deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
-  background-image: src="/images/vista Plataformas TRANSPARENTE.png";
+  background-image: url("/images/vista-plataformas-transparente.png");
   transform: rotateY(120deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
-  background-image: src="/images/estudiojuridico.png";
+  background-image: url("/images/estudiojuridico.png");
  transform: rotateY(160deg) translateZ(430px); }
 .carousel__face:nth-child(6) { 
-  background-image: src="/images/Tatuaje.png";
+  background-image: url("/images/tatuaje.png");
  transform: rotateY(200deg) translateZ(430px); }
 .carousel__face:nth-child(7) { 
-  background-image: src="/images/vista Plataformas TRANSPARENTE.png";
+  background-image: url("/images/vista-plataformas-transparente.png");
  transform: rotateY(240deg) translateZ(430px); }
 .carousel__face:nth-child(8) {
-  background-image: src="/images/estudiojuridico.png";
+  background-image: url("/images/estudiojuridico.png");
   transform: rotateY(280deg) translateZ(430px); }
 .carousel__face:nth-child(9) {
-  background-image: src"/images/Tatuaje.png";
+  background-image: url("/images/tatuaje.png");
   transform: rotateY(320deg) translateZ(430px); }
 
 
@@ -81,10 +81,10 @@ span {
 
 @font-face {
   font-family: 'BellarinaRimo';
-  src: src='/fonts/BellarinaRimo.woff' format('woff2'),
-       src='/fonts/BellarinaRimo.woff' format('woff'),
-	   src='/RimosSoluciones/fonts/BellarinaRimo.woff' format('woff'),
-	   src='/RimosSoluciones/fonts/BellarinaRimo.woff' format('woff');
+  src: url('/fonts/BellarinaRimo.woff') format('woff2'),
+       url('/fonts/BellarinaRimo.woff') format('woff'),
+	   url('/RimosSoluciones/fonts/BellarinaRimo.woff') format('woff'),
+	   url('/RimosSoluciones/fonts/BellarinaRimo.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
