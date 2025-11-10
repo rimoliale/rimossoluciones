@@ -39,16 +39,16 @@ span {
 
 
 .carousel__face:nth-child(1) {
-  background-image: url("./images/vista-plataformas-transparente.jpg");
+  background-image: url("../images/vista-plataformas-transparente.jpg");
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face:nth-child(2) { 
-  background-image: url("./images/estudiojuridico.jpg");
+  background-image: url(".../images/estudiojuridico.jpg");
     transform: rotateY( 40deg) translateZ(430px); }
 .carousel__face:nth-child(3) {
-  background-image: url("./images/tatuaje.jpg");
+  background-image: url("../images/tatuaje.jpg");
   transform: rotateY( 80deg) translateZ(430px); }
 .carousel__face:nth-child(4) {
-  background-image: url("/images/vista-plataformas-transparente.png");
+  background-image: url(".../images/vista-plataformas-transparente.png");
   transform: rotateY(120deg) translateZ(430px); }
 .carousel__face:nth-child(5) { 
   background-image: url("/images/estudiojuridico.png");
@@ -81,10 +81,10 @@ span {
 
 @font-face {
   font-family: 'BellarinaRimo';
-  src: url('./fonts/BellarinaRimo.woff') format('woff2'),
-       url('./fonts/BellarinaRimo.woff') format('woff'),
-	   url('./RimosSoluciones/fonts/BellarinaRimo.woff') format('woff'),
-	   url('./RimosSoluciones/fonts/BellarinaRimo.woff') format('woff');
+  src: url('../fonts/BellarinaRimo.woff') format('woff2'),
+       url('.../fonts/BellarinaRimo.woff') format('woff'),
+	   url('../RimosSoluciones/fonts/BellarinaRimo.woff') format('woff'),
+	   url('.../RimosSoluciones/fonts/BellarinaRimo.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
