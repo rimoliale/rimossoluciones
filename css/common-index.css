@@ -81,10 +81,10 @@ span {
 
 @font-face {
   font-family: 'BellarinaRimo';
-  src: url('/fonts/BellarinaRimo.woff') format('woff2'),
-       url('/fonts/BellarinaRimo.woff') format('woff'),
-	   url('/RimosSoluciones/fonts/BellarinaRimo.woff') format('woff'),
-	   url('/RimosSoluciones/fonts/BellarinaRimo.woff') format('woff');
+  src: url('./fonts/BellarinaRimo.woff') format('woff2'),
+       url('./fonts/BellarinaRimo.woff') format('woff'),
+	   url('./RimosSoluciones/fonts/BellarinaRimo.woff') format('woff'),
+	   url('./RimosSoluciones/fonts/BellarinaRimo.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
