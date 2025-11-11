@@ -66,8 +66,6 @@ span {
   background-image: url("../images/tattoo.png");
   transform: rotateY(320deg) translateZ(430px); }
 
-
-
 @keyframes rotate360 {
   from {
     transform: rotateY(0deg);
@@ -86,4 +84,10 @@ span {
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+}
+
+.sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline [data-slice-type="buttons"] a, .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline .sqs-slice-custom-form a, .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline~.sqs-modal-lightbox .form-wrapper input[type=submit], .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline [data-compound-type="popup-overlay-action"] button[type=submit]
+{
+    color: #ffffff;
+    border: 2px solid #ffffff;
 }
