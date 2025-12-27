@@ -8,7 +8,7 @@ body {
 
 .container {
   position: relative;
-  width: 320px;
+  width: 380px;
   margin: 3px auto 0 auto;
   perspective: 1000px;
 }
@@ -22,8 +22,8 @@ body {
 }
 .carousel__face { 
   position: absolute;
-  width: 250px;
-  height: 163px;
+  width: 230px;
+  height: 149px;/*65.2*/
   top: 20px;
   left: 0px;
   right: 0px;
@@ -33,45 +33,45 @@ body {
 }
 
 span {
-  margin: auto;
+  margin: 20%;
   font-size: 2rem;
 }
 
 
 .carousel__face:nth-child(1) {
   background-image: url("../images/vista-plataformas-transparente.png");
-  transform: rotateY(  0deg) translateZ(430px); }
+  transform: rotateY(0deg) translateZ(380px); }/*320 es distancia entre caras*/
 .carousel__face:nth-child(2) { 
   background-image: url("../images/estudiojuridico.png");
-    transform: rotateY( 40deg) translateZ(430px); }
+    transform: rotateY( 40deg) translateZ(380px); }
 .carousel__face:nth-child(3) {
   background-image: url("../images/tattoo.png");
-  transform: rotateY( 80deg) translateZ(430px); }
+  transform: rotateY( 80deg) translateZ(380px); }
 .carousel__face:nth-child(4) {
   background-image: url("../images/vista-plataformas-transparente.png");
-  transform: rotateY(120deg) translateZ(430px); }
+  transform: rotateY(120deg) translateZ(380px); }
 .carousel__face:nth-child(5) { 
   background-image: url("../images/estudiojuridico.png");
- transform: rotateY(160deg) translateZ(430px); }
+ transform: rotateY(160deg) translateZ(380px); }
 .carousel__face:nth-child(6) { 
   background-image: url("../images/tattoo.png");
- transform: rotateY(200deg) translateZ(430px); }
+ transform: rotateY(200deg) translateZ(380px); }
 .carousel__face:nth-child(7) { 
   background-image: url("../images/vista-plataformas-transparente.png");
- transform: rotateY(240deg) translateZ(430px); }
+ transform: rotateY(240deg) translateZ(380px); }
 .carousel__face:nth-child(8) {
   background-image: url("../images/estudiojuridico.png");
-  transform: rotateY(280deg) translateZ(430px); }
+  transform: rotateY(280deg) translateZ(380px); }
 .carousel__face:nth-child(9) {
   background-image: url("../images/tattoo.png");
-  transform: rotateY(320deg) translateZ(430px); }
+  transform: rotateY(320deg) translateZ(380px); }
 
 @keyframes rotate360 {
   from {
     transform: rotateY(0deg);
   }
   to {
-    transform: rotateY(-360deg);
+    transform: rotateY(-240deg);
   }
 }
 
