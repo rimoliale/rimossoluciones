@@ -30,7 +30,6 @@ body {
   background-size: contain;
   box-shadow:inset 0 0 0 0px rgba(0,0,0,0.5);/*Opacidad*/
   display: flex;
-  opacity: 98%;
 }
 
 span {
