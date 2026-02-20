@@ -7187,9 +7187,11 @@
             --shc-mutated-brightness: 128, 128, 128;
         }
 
-.img{
+img{
 
     max-width: stretch !important;
+    max-height: stretch !important;
+    height: 56vh;
     vertical-align: middle;
     border-style: none;
 }
