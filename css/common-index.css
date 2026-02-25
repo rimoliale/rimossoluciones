@@ -29,8 +29,8 @@ body {
 }
 .carousel__face { 
   position: absolute;
-  width: 34.5vh; /*Tamaño Caras carrusel*/
-  height: 22.35vh;/*Tamaño Caras carrusel*/ /*65.2*/
+  width: 45vh; /*Tamaño Caras carrusel*/
+  height: 26vh;/*Tamaño Caras carrusel*/ /*65.2*/
   top: 20px;
   left: 0px;
   right: 0px;
