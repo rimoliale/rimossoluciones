@@ -40,7 +40,7 @@ body {
 }
 
 span {
-  margin: 20%;
+  margin: 5vh;/*Espacio entre iconos redes*/
   font-size: 2rem;
 }
 
@@ -97,4 +97,9 @@ span {
 {
     color: #ffffff;
     border: 2px solid #ffffff;
+}
+.elementor-icon.elementor-social-icon
+{
+    height: 8vh;
+    width: 8vh;
 }
