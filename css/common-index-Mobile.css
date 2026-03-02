@@ -2,7 +2,7 @@
   .nombre-principal{
     top: 3px;
     position: relative;
-    font-size: 7vh;
+    font-size: 6vh;
     text-align: center;
     font-family: BellarinaRimo;
     margin-bottom: 8px;
@@ -10,8 +10,8 @@
 
   .carousel__face { 
   position: absolute;
-  width: 28vh; /*Tamaño Caras carrusel*/
-  height: 15vh;/*Tamaño Caras carrusel*/ /*65.2*/
+  width: 22vh; /*Tamaño Caras carrusel*/
+  height: 12vh;/*Tamaño Caras carrusel*/ /*65.2*/
   top: 20px;
   left: 0px;
   right: 0px;
