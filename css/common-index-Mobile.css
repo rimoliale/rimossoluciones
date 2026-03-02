@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  .nombre-principal{
+    top: 3px;
+    position: relative;
+    font-size: 7vh;
+    text-align: center;
+    font-family: BellarinaRimo;
+    margin-bottom: 8px;
+  }
+
+  .carousel__face { 
+  position: absolute;
+  width: 28vh; /*Tamaño Caras carrusel*/
+  height: 15vh;/*Tamaño Caras carrusel*/ /*65.2*/
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  background-size: contain;
+  box-shadow:inset 0 0 0 0px rgba(0,0,0,0.5);/*Opacidad*/
+  display: flex;
+}
+
+.carousel__face:nth-child(1) {
+  background-image: url("../images/E commerce para vender Eton.jpg");
+  transform: rotateY(0deg) translateZ(380px); }/*0deg es distancia entre caras*/
+.carousel__face:nth-child(2) { 
+  background-image: url("../images/E-commerce-para-vender-Chango- 2.jpg");
+    transform: rotateY( 30deg) translateZ(380px); }
+.carousel__face:nth-child(3) {
+  background-image: url("../images/E commerce para vender Tattoo 2.jpg");
+  transform: rotateY( 60deg) translateZ(380px); }
+.carousel__face:nth-child(4) {
+  background-image: url("../images/E commerce para vender Lang MIX.jpg");
+  transform: rotateY(90deg) translateZ(380px); }
+.carousel__face:nth-child(5) { 
+  background-image: url("../images/E commerce para vender Eton.jpg");
+ transform: rotateY(120deg) translateZ(380px); }
+.carousel__face:nth-child(6) { 
+  background-image: url("../images/E-commerce-para-vender-Chango- 2.jpg");
+ transform: rotateY(150deg) translateZ(380px); }
+.carousel__face:nth-child(7) { 
+  background-image: url("../images/E commerce para vender Tattoo 2.jpg");
+ transform: rotateY(180deg) translateZ(380px); }
+.carousel__face:nth-child(8) {
+  background-image: url("../images/E commerce para vender Lang MIX.jpg");
+  transform: rotateY(210deg) translateZ(380px); }
+.carousel__face:nth-child(9) {
+  background-image: url("../images/E commerce para vender Eton.jpg");
+  transform: rotateY(240deg) translateZ(380px); }
+
+  
+}
