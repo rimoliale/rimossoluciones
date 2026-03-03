@@ -123,4 +123,13 @@ background-color: #2f0327;
     font-family: BellarinaRimo;
     margin-bottom: 8px;
 }
+
+img{
+    max-width: stretch !important;
+    max-height: stretch !important;
+    width: 112vh;
+    height: 56vh;
+    vertical-align: middle;
+    border-style: none;
+}
 }

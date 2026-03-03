@@ -50,5 +50,16 @@
 
  .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="buttons"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="navigation"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="sso-options"] li a{
   display:block;
-} 
+}
+
+img {
+    width: 112vh;
+    max-width: stretch !important;
+    max-height: stretch !important;
+    vertical-align: middle;
+    border-style: none;
+}
+.img-redes{
+    width: 6vh;
+}
 }
