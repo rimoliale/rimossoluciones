@@ -132,4 +132,8 @@ img{
     vertical-align: middle;
     border-style: none;
 }
+.btn-VerMas{
+					top: -10vh;
+					left: 26vh;
+          }
 }

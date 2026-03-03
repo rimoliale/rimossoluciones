@@ -5,7 +5,7 @@
     font-size: 6vh;
     text-align: center;
     font-family: BellarinaRimo;
-    margin-bottom: 8px;
+    margin-bottom: 8vh;
   }
 
   .carousel__face { 
@@ -62,4 +62,10 @@ img {
 .img-redes{
     width: 6vh;
 }
+
+.btn-VerMas{
+					top: -6vh;
+					left: 11vh;
+          font-size: 0.675rem;
+          }
 }
