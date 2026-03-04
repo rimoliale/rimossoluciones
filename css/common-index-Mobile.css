@@ -1,4 +1,9 @@
 @media (max-width: 768px) {
+
+.html-inicio{
+ width: 380px;
+  }
+
   .nombre-principal{
     top: 3px;
     position: relative;
