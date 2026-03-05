@@ -72,6 +72,10 @@ span {
 background-color: #2f0327;
 }
 
+.vc_single_image-wrapper   vc_box_border_grey{ 
+    display: flex;
+    justify-content: center;
+}
 
 @media (min-width: 768px) {
 
@@ -124,6 +128,12 @@ background-color: #2f0327;
     margin-bottom: 8px;
 }
 
+
+.row-par-contenedor{
+    margin-bottom: 25vh;
+}
+
+
 img{
     max-width: stretch !important;
     max-height: stretch !important;
@@ -133,7 +143,7 @@ img{
     border-style: none;
 }
 .btn-VerMas{
-					top: -10vh;
-					left: 26vh;
+    left: 65%;
+    top: 82%;
           }
 }

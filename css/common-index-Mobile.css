@@ -68,10 +68,18 @@ img {
     width: 6vh;
 }
 
+.row-par-contenedor{
+    margin-bottom: 12vh;
+}
+
+.tarjetas-contenedor{
+    margin-bottom: 3vh;
+}
+
 .btn-VerMas{
-					top: -5vh;
-					left: 9vh;
-          font-size: 0.675rem;
+    left: 61%;
+    top: 78%;
+    font-size: 0.675rem;
           }
 
 #Carrusel{
