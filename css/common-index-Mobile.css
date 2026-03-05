@@ -69,7 +69,9 @@ img {
 }
 
 .row-par-contenedor{
-    margin-bottom: 12vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-bottom: 12vh;
 }
 
 .tarjetas-contenedor{
