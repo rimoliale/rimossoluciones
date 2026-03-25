@@ -148,4 +148,13 @@ img{
     left: 65%;
     top: 82%;
           }
+
+.no-insta{
+    max-width: stretch !important;
+    max-height: stretch !important;
+    width: 132vh;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
 }
