@@ -64,6 +64,13 @@ img {
     vertical-align: middle;
     border-style: none;
 }
+.no-insta{
+    width: 132vh;
+    max-width: stretch !important;
+    max-height: stretch !important;
+    vertical-align: middle;
+    border-style: none;
+}
 .img-redes{
     width: 6vh;
 }
