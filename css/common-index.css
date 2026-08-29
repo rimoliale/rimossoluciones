@@ -157,4 +157,15 @@ img{
     vertical-align: middle;
     border-style: none;
 }
+
+.nuestros-trabajos{
+  font-size:8vh;
+}
+
+.info-seccion{
+  margin-left: 18vh;
+	margin-right: 18vh;
+  font-size:4vh;
+}
+
 }
