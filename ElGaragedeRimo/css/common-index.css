@@ -1,0 +1,167 @@
+
+
+
+.font_3 wixui-rich-text__text {
+    font-size: 64px;
+    line-height: 0.9em;
+}
+body {
+  margin: 0;  
+  background:#2f0327;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+}
+
+.container {
+  position: relative;
+  width: 380px;
+  margin: 3px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+  animation: rotate360 32s infinite forwards linear;
+}
+
+
+span {
+  margin: 5vh;/*Espacio entre iconos redes*/
+  font-size: 2rem;
+}
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-240deg);
+  }
+}
+
+
+
+@font-face {
+  font-family: 'BellarinaRimo';
+  src: url('../fonts/BellarinaRimo.woff') format('woff2'),
+       url('../fonts/BellarinaRimo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline [data-slice-type="buttons"] a, .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline .sqs-slice-custom-form a, .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline~.sqs-modal-lightbox .form-wrapper input[type=submit], .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline [data-compound-type="popup-overlay-action"] button[type=submit]
+{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.elementor-icon.elementor-social-icon
+{
+    height: 8vh;
+    width: 8vh;
+}
+
+.elementor-social-icon-instagram
+{ 
+background-color: #2f0327;
+}
+
+.vc_single_image-wrapper   vc_box_border_grey{ 
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+
+  .carousel__face { 
+  position: absolute;
+  width: 45vh; /*Tamaño Caras carrusel*/
+  height: 26vh;/*Tamaño Caras carrusel*/ /*65.2*/
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  background-size: contain;
+  box-shadow:inset 0 0 0 0px rgba(0,0,0,0.5);/*Opacidad*/
+  display: flex;
+}
+  
+.carousel__face:nth-child(1) {
+  background-image: url("../images/E commerce para vender Eton.jpg");
+  transform: rotateY(0deg) translateZ(380px); }/*0deg es distancia entre caras*/
+.carousel__face:nth-child(2) { 
+  background-image: url("../images/E-commerce-para-vender-Chango- 2.jpg");
+    transform: rotateY( 45deg) translateZ(380px); }
+.carousel__face:nth-child(3) {
+  background-image: url("../images/E commerce para vender Tattoo 2.jpg");
+  transform: rotateY( 90deg) translateZ(380px); }
+.carousel__face:nth-child(4) {
+  background-image: url("../images/E commerce para vender Lang MIX.jpg");
+  transform: rotateY(135deg) translateZ(380px); }
+.carousel__face:nth-child(5) { 
+  background-image: url("../images/E commerce para vender Eton.jpg");
+ transform: rotateY(180deg) translateZ(380px); }
+.carousel__face:nth-child(6) { 
+  background-image: url("../images/E-commerce-para-vender-Chango- 2.jpg");
+ transform: rotateY(225deg) translateZ(380px); }
+.carousel__face:nth-child(7) { 
+  background-image: url("../images/E commerce para vender Tattoo 2.jpg");
+ transform: rotateY(270deg) translateZ(380px); }
+.carousel__face:nth-child(8) {
+  background-image: url("../images/E commerce para vender Lang MIX.jpg");
+  transform: rotateY(315deg) translateZ(380px); }
+.carousel__face:nth-child(9) {
+  background-image: url("../images/E commerce para vender Eton.jpg");
+  transform: rotateY(360deg) translateZ(380px); }
+
+.nombre-principal{
+    top: 3px;
+    position: relative;
+    font-size: 12vh;
+    text-align: center;
+    font-family: BellarinaRimo;
+    margin-bottom: 8px;
+    text-decoration:underline;                                                                                         
+}
+
+.row-par-contenedor-principal{
+  margin-left: 62vh;
+  margin-right: 62vh;
+  margin-bottom: 8vh;
+  margin-top: 3vh;
+}
+
+.row-par-contenedor{
+  margin-left: 3vh;
+  margin-right: 3vh;
+  margin-bottom: 25vh;
+}
+
+
+img{
+    max-width: stretch !important;
+    max-height: stretch !important;
+    width: 112vh;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.btn-VerMas{
+    left: 65%;
+    top: 82%;
+          }
+
+.no-insta{
+    max-width: stretch !important;
+    max-height: stretch !important;
+    width: 132vh;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+}
