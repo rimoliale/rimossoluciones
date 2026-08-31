@@ -162,6 +162,10 @@ img{
   font-size:8vh;
 }
 
+.tarjetas-contenedor-index{
+    padding: 0 8vh 8vh 8vh;
+}
+
 .info-seccion{
   margin-left: 18vh;
 	margin-right: 18vh;
