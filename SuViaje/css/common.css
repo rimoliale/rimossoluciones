@@ -1,0 +1,146 @@
+    
+#imgPrincipal   {
+    /* height: auto !important; */
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#img-wa{
+  height: auto !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+.whatsapp-container {
+  position: fixed;
+  bottom: 20px;
+  right: 3vw;
+  display: flex;
+  align-items: center;
+  z-index: 9999;
+}
+
+.whatsapp-label {
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 16px;
+  margin-right: 4px; /* Más cerca del ícono */
+  font-family: 'Rubik', sans-serif;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.whatsapp-label::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  right: 6px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-top-color: white;
+  transform: rotate(45deg);
+  box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-float img {
+  width: 44px;
+  height: 44px;
+}
+
+/* Flechas laterales */
+.left-control,
+.right-control{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 58px;
+  height: 58px;
+  border: 2px solid rgba(255,255,255,.75);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 30;
+  line-height: 1;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.left-control{
+  left: 18px;
+}
+
+.right-control{
+  right: 18px;
+}
+
+/* Si usás SVG */
+.left-control svg,
+.right-control svg{
+  width: 26px;
+  height: 26px;
+  display: block;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+
+
+
+/* Flecha de abajo */
+#tohash{
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 56px;
+  border: 2px solid rgba(255,255,255,.75);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 30;
+  text-decoration: none;
+  animation: flechaRebote 1.8s infinite;
+  box-sizing: border-box;
+}
+
+#tohash svg{
+  width: 28px;
+  height: 28px;
+  display: block;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+#tohash i{
+  font-size: 32px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Efecto cae y rebota */
+@keyframes flechaRebote {
+  0%   { transform: translateX(-50%) translateY(-14px); }
+  25%  { transform: translateX(-50%) translateY(0); }
+  38%  { transform: translateX(-50%) translateY(-7px); }
+  55%  { transform: translateX(-50%) translateY(0); }
+  70%  { transform: translateX(-50%) translateY(-3px); }
+  100% { transform: translateX(-50%) translateY(0); }
+}
+
+.titulo-principal-especial{
+  -webkit-text-stroke-width: 1.8px;
+  -webkit-text-stroke-color: white;
+}

@@ -17,7 +17,7 @@
 .whatsapp-container {
   position: fixed;
   bottom: 20px;
-  right: 15vh;
+  right: 5vw;
   display: flex;
   align-items: center;
   z-index: 9999;

@@ -84,9 +84,12 @@ img {
 .tarjetas-contenedor{
     margin-bottom: 3vh;
 }
+
+/*
 .tarjetas-contenedor-index{
     padding: 0 8vh 8vh 8vh;
 }
+*/
 
 .btn-VerMas{
     left: 61%;
@@ -97,4 +100,9 @@ img {
 #Carrusel{
 margin-bottom: 38vh !important;
           }
+
+.nuestros-trabajos{
+font-size: 4vh;
+}
+
 }
