@@ -1,6 +1,3 @@
-
-
-
 .font_3 wixui-rich-text__text {
     font-size: 64px;
     line-height: 0.9em;
@@ -28,13 +25,10 @@ body {
   animation: rotate360 32s infinite forwards linear;
 }
 
-
 span {
   margin: 5vh;/*Espacio entre iconos redes*/
   font-size: 2rem;
 }
-
-
 
 @keyframes rotate360 {
   from {
@@ -44,8 +38,6 @@ span {
     transform: rotateY(-240deg);
   }
 }
-
-
 
 @font-face {
   font-family: 'BellarinaRimo';
@@ -75,6 +67,14 @@ background-color: #2f0327;
 .vc_single_image-wrapper   vc_box_border_grey{ 
     display: flex;
     justify-content: center;
+}
+
+.btn-VerMas{
+    color: #ffffff;
+    background-color: #2f0327;
+    border-color: var(--bs-btn-hover-border-color);
+    border-color: #ffffff;
+    border-width: thick;
 }
 
 @media (min-width: 768px) {
@@ -147,7 +147,7 @@ img{
 .btn-VerMas{
     left: 65%;
     top: 82%;
-          }
+}
 
 .no-insta{
     max-width: stretch !important;
