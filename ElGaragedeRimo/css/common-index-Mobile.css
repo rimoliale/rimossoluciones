@@ -1,9 +1,7 @@
 @media (max-width: 768px) {
-/*
-.html-inicio{
- width: 380px;
-  }
-*/
+ .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="buttons"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="navigation"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="sso-options"] li a{
+  display:block;
+}
   .nombre-principal{
     top: 3px;
     position: relative;
