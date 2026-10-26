@@ -166,8 +166,8 @@ background-color: #2f0327;
   display: flex;
 
   .vc_custom_heading{
-font-size: 4vh;
-}
+    font-size: 4vh;
+    }
 }
   
 .carousel__face:nth-child(1) {

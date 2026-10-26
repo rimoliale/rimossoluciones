@@ -4,11 +4,6 @@
  width: 380px;
   }
 */
-
-.col-md-6{
-    flex: 0 0 auto;
-    width: 50%;
-}
   .nombre-principal{
     top: 3px;
     position: relative;
@@ -18,49 +13,6 @@
     margin-bottom: 8vh;
   }
 
-  .carousel__face { 
-  position: absolute;
-  width: 23vh; /*Tamaño Caras carrusel*/
-  height: 12vh;/*Tamaño Caras carrusel*/ /*65.2*/
-  top: 20px;
-  left: 0px;
-  right: 0px;
-  background-size: contain;
-  box-shadow:inset 0 0 0 0px rgba(0,0,0,0.5);/*Opacidad*/
-  display: flex;
-}
-
-.carousel__face:nth-child(1) {
-  background-image: url("../images/E commerce para vender Eton.jpg");
-  transform: rotateY(0deg) translateZ(380px); }/*0deg es distancia entre caras*/
-.carousel__face:nth-child(2) { 
-  background-image: url("../images/E-commerce-para-vender-Chango- 2.jpg");
-    transform: rotateY( 30deg) translateZ(380px); }
-.carousel__face:nth-child(3) {
-  background-image: url("../images/E commerce para vender Tattoo 2.jpg");
-  transform: rotateY( 60deg) translateZ(380px); }
-.carousel__face:nth-child(4) {
-  background-image: url("../images/E commerce para vender Lang MIX.jpg");
-  transform: rotateY(90deg) translateZ(380px); }
-.carousel__face:nth-child(5) { 
-  background-image: url("../images/E commerce para vender Eton.jpg");
- transform: rotateY(120deg) translateZ(380px); }
-.carousel__face:nth-child(6) { 
-  background-image: url("../images/E-commerce-para-vender-Chango- 2.jpg");
- transform: rotateY(150deg) translateZ(380px); }
-.carousel__face:nth-child(7) { 
-  background-image: url("../images/E commerce para vender Tattoo 2.jpg");
- transform: rotateY(180deg) translateZ(380px); }
-.carousel__face:nth-child(8) {
-  background-image: url("../images/E commerce para vender Lang MIX.jpg");
-  transform: rotateY(210deg) translateZ(380px); }
-.carousel__face:nth-child(9) {
-  background-image: url("../images/E commerce para vender Eton.jpg");
-  transform: rotateY(240deg) translateZ(380px); }
-
- .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="buttons"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="navigation"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="sso-options"] li a{
-  display:block;
-}
 
 img {
     width: 112vh;
@@ -80,34 +32,43 @@ img {
     width: 6vh;
 }
 
+.contenedor-principal{
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-bottom: 12vh;
+}
+
 .row-par-contenedor{
   margin-left: 1vh;
   margin-right: 1vh;
-  margin-bottom: 8vh;
+  margin-bottom: 3vh;
 }
 
 .tarjetas-contenedor{
-    margin-bottom: 3vh;
+    margin-bottom: 6vh;
 }
+
+/*
+.tarjetas-contenedor-index{
+    padding: 0 8vh 8vh 8vh;
+}
+*/
 
 .btn-VerMas{
     left: 61%;
     top: 78%;
-    font-size: 0.675rem;
+    font-size: 0.875rem;
           }
 
 #Carrusel{
 margin-bottom: 38vh !important;
           }
+
 .nuestros-trabajos{
 font-size: 4vh;
 }
-
-
-
-.info-seccion{
-  margin-left: 0.5vh;
-	margin-right: 0.5vh;
-  font-size:2vh;
+.vc_custom_heading{
+font-size: 2vh;
 }
+
 }
