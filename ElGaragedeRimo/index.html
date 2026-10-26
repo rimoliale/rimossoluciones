@@ -35,6 +35,22 @@
 <link rel="icon" type="image/png" href="images/LOGO-1.jpg" sizes="128x128">
 <meta content="#2d89ef" name="msapplication-TileColor"/><meta content="" name="msapplication-TileImage"/><meta content="#0056D2" name="theme-color"/><meta content="366737676376375235216727" property="qc:admins"/><!-- Verification for Yandex--><meta content="4970cfdb825622c7" property="yandex-verification"/>
 
+
+		<style>
+			.contenedor-video {
+				width: 100%;
+				max-width: 1080px; /* Ajusta el ancho según tu diseño */
+				margin: 0 auto;
+				position: relative;
+				overflow: hidden;
+			}
+			video {
+				width: 100%;
+				height: auto;
+				display: block;
+				pointer-events: none; /* Bloquea clics y menús contextuales sobre el video */
+			}
+		</style>
 </head>
 <div class="nombre-principal">
 	El Garage de Rimo
@@ -45,7 +61,20 @@
 <body id="inicio" style="overflow-x: hidden;">
 
 	<div class="row contenedor-principal">
-		<iframe src="https://youtu.be/F9tdiINuJSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<div class="contenedor-video">
+			<!-- 
+			- Ruta: "videos/tu-video.mp4" apunta a la subcarpeta de tu web.
+			- muted: Obligatorio para que funcione el autoplay.
+			- loop: Se repite en bucle.
+			-->
+			<video autoplay loop muted playsinline>
+				<source src="resources/Guia Subida a YouTube - Trim baja calidad.mp4" type="video/mp4">
+				Tu navegador no soporta videos HTML5.
+			</video>
+		</div>
+
+
+
 	</div>
 
 	<div class="row contenedor-principal">
