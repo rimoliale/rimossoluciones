@@ -69,7 +69,12 @@ margin-bottom: 38vh !important;
 .nuestros-trabajos{
 font-size: 4vh;
 }
-.vc_custom_heading{
+
+.info-seccion-titulo{
+font-size: 2.5vh;
+}
+
+.info-seccion{
 font-size: 2.2vh;
 }
 
