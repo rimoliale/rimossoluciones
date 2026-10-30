@@ -80,11 +80,13 @@ span {
 }
 
 
+
 .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline [data-slice-type="buttons"] a, .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline .sqs-slice-custom-form a, .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline~.sqs-modal-lightbox .form-wrapper input[type=submit], .sqs-slide-wrapper[data-slide-type="cover-page"] .button-style-outline [data-compound-type="popup-overlay-action"] button[type=submit]
 {
     color: #ffffff;
     border: 2px solid #ffffff;
 }
+
 .elementor-icon.elementor-social-icon
 {
     height: 8vh;
