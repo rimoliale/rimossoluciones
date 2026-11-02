@@ -10,7 +10,7 @@
     font-size: 6vh;
     text-align: center;
     font-family: BellarinaRimo;
-    margin-bottom: 8vh;
+    margin-bottom: 2vh;
   }
 
   .carousel__face { 
@@ -94,8 +94,14 @@ img {
 .btn-VerMas{
     left: 61%;
     top: 78%;
-    font-size: 0.875rem;
-          }
+    font-size: 0.7rem;
+    width: 20vw;
+    height: 5vh;
+}
+
+.VerMas-Texto{
+  color: black;
+}
 
 #Carrusel{
 margin-bottom: 38vh !important;
@@ -103,9 +109,6 @@ margin-bottom: 38vh !important;
 
 .nuestros-trabajos{
 font-size: 4vh;
-}
-.vc_custom_heading{
-font-size: 2vh;
 }
 
 }
