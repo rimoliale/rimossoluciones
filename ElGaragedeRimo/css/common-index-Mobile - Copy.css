@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+ .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="buttons"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="navigation"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="sso-options"] li a{
+  display:block;
+}
+  .nombre-principal{
+    top: 3px;
+    position: relative;
+    font-size: 5vh;
+    text-align: center;
+    font-family: BellarinaRimo;
+    margin-bottom: 8vh;
+  }
+
+
+img {
+    width: 112vh;
+    max-width: stretch !important;
+    max-height: stretch !important;
+    vertical-align: middle;
+    border-style: none;
+}
+.no-insta{
+    width: 132vh;
+    max-width: stretch !important;
+    max-height: stretch !important;
+    vertical-align: middle;
+    border-style: none;
+}
+.img-redes{
+    width: 6vh;
+}
+
+.contenedor-principal{
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-bottom: 12vh;
+}
+
+.row-par-contenedor{
+  margin-left: 1vh;
+  margin-right: 1vh;
+  margin-bottom: 3vh;
+}
+
+.tarjetas-contenedor{
+    margin-bottom: 6vh;
+}
+
+.contenedor-botones-principal{
+    margin-bottom: 3vh;
+}
+
+/*
+.tarjetas-contenedor-index{
+    padding: 0 8vh 8vh 8vh;
+}
+*/
+
+.btn-VerMas{
+    left: 61%;
+    top: 78%;
+    font-size: 0.875rem;
+          }
+
+#Carrusel{
+margin-bottom: 38vh !important;
+          }
+
+.nuestros-trabajos{
+font-size: 4vh;
+}
+
+.vc_custom_heading{
+font-size: 3.5vh;
+}
+
+.info-seccion-titulo{
+font-size: 2.5vh;
+}
+
+.info-seccion{
+font-size: 2.2vh;
+}
+
+}
