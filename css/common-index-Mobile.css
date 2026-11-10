@@ -10,7 +10,7 @@
     font-size: 6vh;
     text-align: center;
     font-family: BellarinaRimo;
-    margin-bottom: 2vh;
+    margin-bottom: 4vh;
   }
 
   .carousel__face { 
@@ -109,6 +109,20 @@ margin-bottom: 38vh !important;
 
 .nuestros-trabajos{
 font-size: 4vh;
+}
+
+h2{
+  font-size: 2.1vh;
+}
+
+.subtitle{
+    margin-bottom: 9vh;
+    font-size: 2.1vh;
+}
+
+.sqs-slide-wrapper{
+  margin-top: 25vh;
+  margin-bottom: -6vh;
 }
 
 }

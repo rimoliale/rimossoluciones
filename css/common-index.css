@@ -125,7 +125,7 @@ background-color: #2f0327;
     font-size: 12vh;
     text-align: center;
     font-family: BellarinaRimo;
-    margin-bottom: 8px;
+    margin-bottom: 2vh;
 }
 
 
@@ -170,6 +170,19 @@ img{
   margin-left: 18vh;
 	margin-right: 18vh;
   font-size:4vh;
+}
+
+h2{
+  font-size: 1.4vw;
+}
+
+.subtitle{
+  margin-bottom: 12vh;
+  font-size: 1.7vw;
+}
+.sqs-slide-wrapper{
+      margin-bottom: 1vh;
+    margin-top: 25vh;
 }
 
 }

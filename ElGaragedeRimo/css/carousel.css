@@ -1,11 +1,5 @@
 #home-slider {
     overflow: hidden;
     position: relative;
-    height: 35vh;
 }
 
-.slider-img {
-    justify-self: center;
-    width: auto;
-    height: 35vh !important;
-}

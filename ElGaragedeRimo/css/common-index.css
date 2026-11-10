@@ -157,8 +157,7 @@ background-color: #2f0327;
     font-size: 12vh;
     text-align: center;
     font-family: BellarinaRimo;
-    margin-bottom: 8px;
-    text-decoration:underline;                                                                                         
+    margin-bottom: 11vh;                                                                                       
 }
 
 .row-par-contenedor-principal{
@@ -196,6 +195,36 @@ img{
     vertical-align: middle;
     border-style: none;
 }
+
+h2{
+    color: #fff;
+    text-align: center;
+    font-family: 'futura-pt';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-bottom: 3vh;
+}
+
+.SubTitle{
+    font-family: 'futura-pt';
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    margin-bottom: 10vh;
+}
+
+#home-slider {
+    height: 27vw;
+}
+
+.slider-img {
+    justify-self: center;
+    width: auto;
+    height: 75vh !important;
+    position: relative;
+}
+
 }
 
 
