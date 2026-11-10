@@ -47,7 +47,7 @@ img {
 }
 
 .tarjetas-contenedor-sections{
-    margin-bottom: 15vh;
+    margin-bottom: 1vh;
 }
 
 .contenedor-botones-principal{
@@ -120,8 +120,12 @@ h3{
     margin-bottom: -5vh;
 }
 
-.sqs-slide-wrapper{
-  margin-bottom: -15vh;
+.img-section{
+  margin-bottom: 15vh;
+}
+
+.title-section{
+  margin-bottom: 2vh;
 }
 
 }

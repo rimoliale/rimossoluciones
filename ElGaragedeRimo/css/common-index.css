@@ -214,6 +214,14 @@ h2{
     margin-bottom: 3vh;
 }
 
+h3{
+    color: #808285;
+    font-size: 1.6vw;
+    line-height: 1.4;
+    font-family: 'Montserrat';
+}
+
+
 .SubTitle{
     font-family: 'futura-pt';
     font-size: 1.4vw;
@@ -230,6 +238,14 @@ h2{
     width: auto;
     height: 75vh !important;
     position: relative;
+}
+
+.title-section-container {
+margin-bottom: 4vh;
+}
+
+.title-section-text {
+font-size: 2.3vw;
 }
 
 }
