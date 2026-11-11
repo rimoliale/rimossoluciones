@@ -8,7 +8,7 @@
     font-size: 5vh;
     text-align: center;
     font-family: BellarinaRimo;
-    margin-bottom: 8vh;
+    margin-bottom: 7vh;
   }
 
 
@@ -47,7 +47,7 @@ img {
 }
 
 .tarjetas-contenedor-sections{
-    margin-bottom: 3vh;
+    margin-bottom: 4vh;
 }
 
 .contenedor-botones-principal{
@@ -76,7 +76,7 @@ font-size: 4vh;
 
 .vc_custom_heading{
     font-size: 3vh;
-    margin-bottom: -7vh;
+    margin-bottom: -6vh;
 }
 
 .info-seccion-titulo{
@@ -100,8 +100,8 @@ h3{
 
 .SubTitle {
     font-family: 'Montserrat';
-    font-size: 2.3vh;
-    margin-bottom: 15vh;
+    font-size: 2.2vh;
+    margin-bottom: 7vh;
 }
 
 #home-slider {
@@ -126,6 +126,49 @@ h3{
 
 .title-section{
   margin-bottom: 2vh;
+}
+
+.title-section-container-text {
+margin-bottom: 4vh;
+}
+
+.title-section-text {
+font-size: 3.6vh;
+}
+
+#contacto-text-final{
+  font-size: 3vh;
+  margin-bottom: -11vh;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    position: relative;
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+}
+
+.carousel-fade .carousel-inner .active{
+    height: 100%;
+    width: auto;
+}
+
+h4{
+    position: relative;
+    font-size: 3.1vh;
+    top: -16vh;
+}
+
+.sqs-slide-wrapper{
+  margin-top: 25vh;
+  margin-bottom: -5vh;
 }
 
 }
