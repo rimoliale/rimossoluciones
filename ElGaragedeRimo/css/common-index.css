@@ -132,6 +132,11 @@ background-color: #2f0327;
     justify-content: center;
 }
 
+h4{
+  color: lightgray;
+}
+
+
 @media (min-width: 768px) {
 
 .contenedor-principal{

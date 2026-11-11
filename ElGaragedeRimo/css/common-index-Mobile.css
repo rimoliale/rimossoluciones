@@ -100,12 +100,12 @@ h3{
 .SubTitle {
     font-family: 'Montserrat';
     font-size: 2.2vh;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
 }
 
 #home-slider {
     height: 35vh;
-    margin-bottom: 16vh;
+    margin-bottom: 0vh;
 }
 
 .slider-img {
