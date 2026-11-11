@@ -8,7 +8,7 @@
     font-size: 5vh;
     text-align: center;
     font-family: BellarinaRimo;
-    margin-bottom: 7vh;
+    margin-bottom: 5vh;
   }
 
 
@@ -31,9 +31,8 @@ img {
 }
 
 .contenedor-principal{
-  margin-left: 6vw;
-  margin-right: 6vw;
-  margin-bottom: 12vh;
+  margin-left: 0vh;
+  margin-right: 0vh;
 }
 
 .row-par-contenedor{
@@ -51,7 +50,7 @@ img {
 }
 
 .contenedor-botones-principal{
-    margin-bottom: 3vh;
+    margin-bottom: 0vh;
 }
 
 /*
@@ -167,8 +166,8 @@ h4{
 }
 
 .sqs-slide-wrapper{
-  margin-top: 25vh;
-  margin-bottom: -5vh;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
 }
 
 }
