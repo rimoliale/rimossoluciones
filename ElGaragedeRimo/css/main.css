@@ -118,20 +118,6 @@ a:hover {
 **************************/
 
 
-#home-slider .caption {
-  position: absolute;
-  top: 50%;
-  margin-top: -104px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  text-transform: uppercase;
-  z-index: 15;
-  font-size: 18px;
-  font-weight: 300;
-  color: #fff;
-}
-
 #home-slider .caption h1 {
   color: #fff;
   font-size: 60px;

@@ -137,6 +137,20 @@ h4{
   font-weight: bold;
 }
 
+#home-slider .caption {
+    position: absolute;
+    top: 30vh;
+    margin-top: -104px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 15;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 0.8vh 0.05vh #2f0327;
+}
 
 @media (min-width: 768px) {
 
