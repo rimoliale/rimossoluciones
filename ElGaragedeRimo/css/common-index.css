@@ -1,37 +1,8 @@
-
-@media (min-width: 768px) {
-.row-par-contenedor{
-  margin-left: 3vh;
-  margin-right: 3vh;
-  margin-bottom: 18vh;
-}
-
-img{
-    max-width: stretch !important;
-    max-height: stretch !important;
-    width: 16vw;
-    height: auto;
-    vertical-align: middle;
-    border-style: none;
-}
-
-
-.img-responsive{
-    width: 11vw;
-
-}
-
-}
-
-
-
-
-
-
 .font_3 wixui-rich-text__text {
     font-size: 64px;
     line-height: 0.9em;
 }
+
 body {
   margin: 0;  
   background:#2f0327;
@@ -48,7 +19,7 @@ body {
 }
 
 span {
-  margin: 5vh;/*Espacio entre iconos redes*/
+  margin: 0 5vh 5vh 5vh;/*Espacio entre iconos redes*/
   font-size: 2rem;
 }
 
@@ -149,10 +120,31 @@ h4{
     font-size: 18px;
     font-weight: 300;
     color: #fff;
-    text-shadow: 0.8vh 0.05vh #2f0327;
+    text-shadow: 0.2vh 0.2vh #2f0327;
 }
 
 @media (min-width: 768px) {
+
+.row-par-contenedor{
+  margin-left: 3vh;
+  margin-right: 3vh;
+  margin-bottom: 18vh;
+}
+
+img{
+    max-width: stretch !important;
+    max-height: stretch !important;
+    width: 16vw;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+
+
+.img-responsive{
+    width: 11vw;
+
+}
 
 .contenedor-principal{
   margin-left: 6vw;
@@ -272,6 +264,10 @@ font-size: 2.3vw;
   height: 89vh;
 }
 
+.sqs-slide-wrapper {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
 
 }
 
