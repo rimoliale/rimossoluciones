@@ -160,14 +160,16 @@ var url_string = window.location.href
 	if(url.searchParams.get("product") == 1)
 	{				
     $(".logo").attr("src", "../ElGaragedeRimo/images/BiciMoto Importada Portada.png");
-    $(".title").text("Bicicleta Eléctrica - Scooter - N1 a LITIO 350W - Velocidad máxima 35 km/h. Autonomía máxima 50 km.");
+    $(".title").text("Bicicleta Eléctrica <br> Scooter <br>GPJY N1 a LITIO <br>350W <br><br>Velocidad máxima <br>35 km/h<br>Autonomía máxima<br>50 km");
     $(".button").val("Compra al chat");
 
 	};
 
 	if(url.searchParams.get("product") == 2)
 	{
-		document.getElementById('VerbosConImagenesFrancesA1Div').style.visibility='visible';  
+		  $(".logo").attr("src", "../ElGaragedeRimo/images/Bici sistema cadena.jpg");
+      $(".title").text("Conversión de tu vehiculo a eléctrico");
+      $(".button").val("Contata Ya! al chat");
 	};
 
 });
