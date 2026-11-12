@@ -147,3 +147,28 @@
 </body>
 </html>
 
+
+<!-- Librería jQuery 3.7.1 (versión oficial minificada) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+
+var url_string = window.location.href
+	var url = new URL(url_string);
+	
+	if(url.searchParams.get("product") == 1)
+	{				
+    $(".logo").attr("src", "../ElGaragedeRimo/images/BiciMoto Importada Portada.png");
+    $(".title").text("Bicicleta Eléctrica - Scooter - N1 a LITIO 350W - Velocidad máxima 35 km/h. Autonomía máxima 50 km.");
+    $(".button").val("Compra al chat");
+
+	};
+
+	if(url.searchParams.get("product") == 2)
+	{
+		document.getElementById('VerbosConImagenesFrancesA1Div').style.visibility='visible';  
+	};
+
+});
+</script>
