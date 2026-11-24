@@ -1,3 +1,9 @@
+.price {
+display: flex;
+justify-content: center;
+margin-top: 2vh;
+}
+
 .font_3 wixui-rich-text__text {
     font-size: 64px;
     line-height: 0.9em;
@@ -124,7 +130,14 @@ h4{
 }
 
 @media (min-width: 768px) {
+.img-ventas {
+    width: auto;
+    height: 112.4vh;
+}
 
+.ast-woo-product-category{
+    font-size: 2vw;
+}
 .row-par-contenedor{
   margin-left: 3vh;
   margin-right: 3vh;
@@ -261,7 +274,8 @@ font-size: 2.3vw;
 }
 
 #ventas-images{
-  height: 80vw;
+  display: flex;
+  height: auto;
 }
 
 .sqs-slide-wrapper {

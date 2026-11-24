@@ -1,4 +1,11 @@
 @media (max-width: 768px) {
+.img-ventas {
+    width: auto;
+    height: 24vh;
+}
+.ast-woo-product-category{
+    font-size: 2vh;
+}
  .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="buttons"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="navigation"] li a, .sqs-slide-wrapper[data-slide-type="cover-page"] [data-slice-type="sso-options"] li a{
   display:block;
 }
@@ -171,7 +178,8 @@ h4{
 }
 
 #ventas-images{
-  height: 74vh;
+  height: auto;
+  margin-bottom: 13vh;
 }
 
 

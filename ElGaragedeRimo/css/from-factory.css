@@ -39266,15 +39266,6 @@ textarea {
   width: 100%
 }
 
-a {
-  color: #4169e1
-}
-
-a:focus,
-a:hover {
-  color: #191970
-}
-
 a:focus {
   outline: thin dotted
 }
